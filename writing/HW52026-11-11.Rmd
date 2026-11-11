@@ -1,0 +1,25 @@
+---
+title: "ERHS535HW5RMarkdown"
+author: "Eleah Flockhart"
+date: "2026-11-11"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r library}
+library(tidyverse)
+```
+
+
+
+```{r readin}
+homicides <- read.csv("../data/homicide-data.csv")
+
+```
+
+
